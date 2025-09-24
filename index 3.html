@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кроссворд – Педагогика және Дене шынықтыру</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; text-align: center; }
+        h1 { color: #333; }
+        table { margin: 20px auto; border-collapse: collapse; }
+        td {
+            width: 35px; height: 35px; text-align: center; border: 1px solid #aaa;
+            background: white;
+        }
+        td.empty { background: #ddd; border: none; }
+        input {
+            width: 100%; height: 100%; border: none; text-align: center;
+            font-size: 18px; text-transform: uppercase;
+        }
+        .questions { max-width: 750px; margin: 20px auto; text-align: left; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        .questions h2 { font-size: 18px; margin-top: 10px; }
+        .questions p { margin: 5px 0; }
+        button { margin: 5px; padding: 7px 12px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>Кроссворд: Тұтас педагогикалық процесс және Дене шынықтыру</h1>
+    <p>Әріптерді енгіз немесе батырманы басып жауапты көр</p>
+
+    <table id="crossword">
+        <tr>
+            <td data-answer="С"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="Б"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="Қ"><input maxlength="1"></td>
+            <td class="empty"></td>
+            <td data-answer="Ж"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+            <td data-answer="Ы"><input maxlength="1"></td>
+            <td data-answer="Ғ"><input maxlength="1"></td>
+            <td data-answer="У"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td><td class="empty"></td>
+            <td data-answer="Б"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="Л"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="М"><input maxlength="1"></td>
+            <td class="empty"></td>
+            <td data-answer="С"><input maxlength="1"></td>
+            <td data-answer="П"><input maxlength="1"></td>
+            <td data-answer="О"><input maxlength="1"></td>
+            <td data-answer="Р"><input maxlength="1"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td data-answer="Қ"><input maxlength="1"></td>
+            <td data-answer="Ұ"><input maxlength="1"></td>
+            <td data-answer="З"><input maxlength="1"></td>
+            <td data-answer="Ы"><input maxlength="1"></td>
+            <td data-answer="Р"><input maxlength="1"></td>
+            <td data-answer="Е"><input maxlength="1"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+            <td class="empty"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+            <td data-answer="Ә"><input maxlength="1"></td>
+            <td data-answer="С"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="Л"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td><td class="empty"></td><td class="empty"></td>
+            <td data-answer="Ә"><input maxlength="1"></td>
+            <td data-answer="Д"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="С"><input maxlength="1"></td>
+            <td class="empty"></td>
+            <td data-answer="Ж"><input maxlength="1"></td>
+            <td data-answer="Ү"><input maxlength="1"></td>
+            <td data-answer="Г"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="Р"><input maxlength="1"></td>
+            <td data-answer="У"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td data-answer="М"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="З"><input maxlength="1"></td>
+            <td data-answer="М"><input maxlength="1"></td>
+            <td data-answer="Ұ"><input maxlength="1"></td>
+            <td data-answer="Н"><input maxlength="1"></td>
+            <td class="empty"></td>
+            <td data-answer="Д"><input maxlength="1"></td>
+            <td data-answer="Е"><input maxlength="1"></td>
+            <td data-answer="Н"><input maxlength="1"></td>
+            <td data-answer="С"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="У"><input maxlength="1"></td>
+            <td data-answer="Л"><input maxlength="1"></td>
+            <td data-answer="Ы"><input maxlength="1"></td>
+            <td data-answer="Қ"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td><td class="empty"></td>
+            <td data-answer="М"><input maxlength="1"></td>
+            <td data-answer="Ұ"><input maxlength="1"></td>
+            <td data-answer="Ғ"><input maxlength="1"></td>
+            <td data-answer="А"><input maxlength="1"></td>
+            <td data-answer="Л"><input maxlength="1"></td>
+            <td data-answer="І"><input maxlength="1"></td>
+            <td data-answer="М"><input maxlength="1"></td>
+        </tr>
+        <tr>
+            <td class="empty"></td><td class="empty"></td>
+            <td data-answer="Т"><input maxlength="1"></td>
+            <td data-answer="Е"><input maxlength="1"></td>
+            <td data-answer="Х"><input maxlength="1"></td>
+            <td data-answer="Н"><input maxlength="1"></td>
+            <td data-answer="О"><input maxlength="1"></td>
+            <td data-answer="Л"><input maxlength="1"></td>
+            <td data-answer="О"><input maxlength="1"></td>
+            <td data-answer="Г"><input maxlength="1"></td>
+            <td data-answer="И"><input maxlength="1"></td>
+            <td data-answer="Я"><input maxlength="1"></td>
+        </tr>
+    </table>
+
+    <div>
+        <button onclick="showAnswers()">Барлық жауаптарды көрсету</button>
+        <button onclick="checkAnswers()">Жауаптарды тексеру</button>
+        <button onclick="clearAnswers()">Барлығын тазалау</button>
+    </div>
+
+    <div class="questions">
+        <h2>Көлденең сұрақтар:</h2>
+        <p>1. Оқу процесінің негізгі формасы</p>
+        <p>2. Дене тәрбиесінің негізгі құралы</p>
+        <p>3. Адамның меңгерген тәжірибесінің нәтижесі</p>
+        <p>4. Жарыстық қызмет түрі</p>
+        <p>5. Қимыл-қозғалысты үйрету жолы</p>
+        <p>6. Білім беру процесінің ішкі құрылымы</p>
+        <p>7. Дене тәрбиесінің басты мақсаты</p>
+        <p>8. Педагогикалық процестің негізгі тұлғасы</p>
+
+        <h2>Тік сұрақтар:</h2>
+        <p>1. Маманның кәсіби дайындық деңгейі</p>
+        <p>2. Оқыту тәсілі</p>
+        <p>3. Жеңіл атлетика түрі</p>
+        <p>4. Қозғалыс әрекеті</p>
+        <p>5. Спортшылардың тәртіп ережесі</p>
+        <p>6. Тұлғаны қалыптастыру процесі</p>
+        <p>7. Оқыту процесін ұйымдастыру әдістерінің жиынтығы</p>
+    </div>
+
+    <script>
+        function showAnswers() {
+            document.querySelectorAll('#crossword td').forEach(cell => {
+                const input = cell.querySelector('input');
+                if (input && cell.dataset.answer && cell.dataset.answer.trim() !== "") {
+                    input.value = cell.dataset.answer;
+                    input.style.background = "#dfd";
+                }
+            });
+        }
+        function checkAnswers() {
+            document.querySelectorAll('#crossword td').forEach(cell => {
+                const input = cell.querySelector('input');
+                if (input && cell.dataset.answer && cell.dataset.answer.trim() !== "") {
+                    if (input.value.toUpperCase() === cell.dataset.answer) {
+                        input.style.background = "#dfd";
+                    } else {
+                        input.style.background = "#fdd";
+                    }
+                }
+            });
+        }
+        function clearAnswers() {
+            document.querySelectorAll('#crossword td input').forEach(input => {
+                input.value = "";
+                input.style.background = "white";
+            });
+        }
+    </script>
+</body>
+</html>
